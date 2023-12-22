@@ -1,0 +1,64 @@
+.new {
+    margin: 20px;
+}
+.new .top,
+.new .bottom {
+    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    padding: 10px;
+    display: flex;
+}
+.new .top {
+    margin-bottom: 20px;
+}
+.new .top h1 {
+    color:  lightgray ;
+    font-size: 20px;
+}
+.new .bottom .left {
+    flex: 1;
+}
+.new .bottom .right {
+    flex: 2;
+}
+.new .bottom .right form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.new .bottom .right form .form-input {
+    width: 45%;
+}
+.new .bottom .right form .form-input label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.new .bottom .right form .form-input label .icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+.new .bottom .right form .form-input input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.new .bottom .right form .form-input input:focus::placeholder{
+    opacity: 0;
+}
+.new .bottom .right form .button {
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+}

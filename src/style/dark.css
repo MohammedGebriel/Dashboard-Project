@@ -1,0 +1,42 @@
+.home.dark {
+    background-color: #111;
+    color: rgb(156,156,156);
+}
+.home.dark .navbar {
+    color: #999;
+    border-color: #333;
+}
+.home.dark .navbar .search {
+    background-color: transparent;
+    border-color: transparent;
+}
+.home.dark .navbar .search input {
+    background-color: transparent;
+    color: #999;
+}
+.home.dark .sidebar {
+    border-color: #333;
+    
+}
+.home.dark .sidebar .top .logo {
+    color: #999;
+}
+.home.dark .sidebar .top {
+    border-color: #333;
+}
+.home.dark .sidebar ul li {
+    color: #999;
+}
+.home.dark .sidebar ul li:hover {
+    background-color: #333;
+    color: #fff;
+}
+.home.dark .sidebar .bottom > div:nth-child(1) {
+    background-color: white ;
+}
+.home.dark input{
+    background-color: transparent;
+}
+.home.dark .navbar .wrapper .items .item .icon.mode {
+    color: white;
+}

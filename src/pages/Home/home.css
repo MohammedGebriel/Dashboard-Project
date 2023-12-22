@@ -1,0 +1,22 @@
+.home {
+    
+}
+.home-container .widgets {
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+}
+.home-container .charts {
+    padding: 5px 20px;
+    gap: 20px;
+    display: flex;
+}
+.home-container .list-container {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201, 0.47);
+}
+.home-container .list-container .list-title {
+    font-weight: 500;
+    color: gray;    
+}

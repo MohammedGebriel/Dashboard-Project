@@ -1,0 +1,34 @@
+.widget {
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201,0.47);
+    padding: 10px;
+    flex: 1;
+    height: 110px;
+}
+.widget .left .title {
+    font-size: 14px;
+    color: rgb(160,160,160);
+}
+.widget .left .counter {
+    font-size: 28px;
+    font-weight: 300;
+}
+.widget .left .link {
+    font-size: 12px;
+    border-bottom: 1px solid gray;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.widget .right .percentage {
+    font-size: 14px;
+    font-size: 20px
+}
+.widget .right .percentage.positive {
+    color: green    
+}
+.widget .right .percentage.negative {
+    color: red;    
+}
+.widget .right .icon {
+    font-size: 30px;
+}
